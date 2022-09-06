@@ -1,0 +1,335 @@
+.how {
+  top: 545px;
+  left: 52px;
+  position: relative;
+  width: 1045px;
+  height: 565px;
+
+  &__wrapper {
+    width: 100%;
+    position: absolute;
+
+    &-title {
+      font-size: 24px;
+      font-family: "Fraunces";
+      font-weight: 900;
+      line-height: 32px;
+      color: #83888f;
+    }
+
+    &-line {
+      &-oval {
+        padding-top: 48px;
+        z-index: 2;
+
+        &-item {
+          padding-right: 313px;
+        }
+      }
+
+      &-hr {
+        margin-left: 10px;
+        z-index: -9;
+        position: absolute;
+        top: 95px;
+        width: 700px;
+        height: 2px;
+        background-color: $main-bg-pale-orange;
+      }
+    }
+
+    &__order {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style-type: none;
+
+      &-list {
+        width: 285px;
+        height: 355px;
+        margin-top: 82px;
+        color: $main-bg-dark-grey-blue;
+
+        &_number {
+          font-weight: 900;
+          line-height: 72px;
+          font-size: 72px;
+          color: $main-bg-pale-orange;
+          font-family: "Fraunces";
+        }
+
+        &_title {
+          width: 255px;
+          height: 73px;
+          margin-top: 35px;
+          font-weight: 900;
+          line-height: 36px;
+          font-size: 32px;
+          font-family: "Fraunces";
+        }
+
+        &_text {
+          text-align: left;
+          margin-top: 40px;
+          line-height: 26px;
+          font-weight: 400;
+          font-style: 16px;
+          font-family: "Barlow";
+        }
+      }
+    }
+
+    &__btn {
+      margin-top: 50px;
+
+      &-1 {
+        width: 215px;
+        height: 56px;
+        font-family: "Fraunces";
+        font-weight: 900;
+        font-size: 18px;
+        margin-top: 56px;
+        border-radius: 6px;
+        color: $main-bg-white;
+        background-color: $main-bg-cylan;
+        border: none;
+
+        &:hover {
+          background-color: #66d2cf;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+  .how {
+    position: relative;
+    top: 545px;
+    left: 52px;
+
+    width: 689px;
+    height: 622px;
+
+    &__wrapper {
+      width: 100%;
+      position: absolute;
+
+      &-title {
+        font-size: 24px;
+        font-family: "Fraunces";
+        font-weight: 900;
+        line-height: 32px;
+        color: #83888f;
+      }
+
+      &-line {
+        &-oval {
+          padding-top: 48px;
+          z-index: 2;
+
+          &-item {
+            padding-right: 190px;
+          }
+        }
+
+        &-hr {
+          margin-left: 10px;
+          z-index: -9;
+          position: absolute;
+          top: 95px;
+          width: 467px;
+          height: 2px;
+          background-color: $main-bg-pale-orange;
+        }
+      }
+
+      &__order {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+
+        &-list {
+          width: 285px;
+          height: 355px;
+          margin-top: 82px;
+          color: $main-bg-dark-grey-blue;
+
+          &_number {
+            font-weight: 900;
+            line-height: 72px;
+            font-size: 72px;
+            color: $main-bg-pale-orange;
+            font-family: "Fraunces";
+          }
+
+          &_title {
+            width: 150px;
+            height: 65px;
+            margin-top: 38px;
+            font-weight: 900;
+            line-height: 32px;
+            font-size: 24px;
+            font-family: "Fraunces";
+          }
+
+          &_text {
+            width: 223px;
+            height: 180px;
+            text-align: left;
+            margin-top: 42px;
+            line-height: 25px;
+            font-weight: 400;
+            font-style: 15px;
+            padding: 0px 10px 0px 0px;
+            font-family: "Barlow";
+          }
+        }
+      }
+
+      &__btn {
+        margin-top: 50px;
+
+        &-1 {
+          width: 217px;
+          height: 56px;
+          font-family: "Fraunces";
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 25px;
+          margin-top: 56px;
+          border-radius: 6px;
+          color: $main-bg-white;
+          background-color: $main-bg-cylan;
+          border: none;
+
+          &:hover {
+            background-color: #66d2cf;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:376px) {
+  .how {
+    position: relative;
+    top: 545px;
+    left: 52px;
+    width: 375px;
+    height: 1350px;
+
+    &__wrapper {
+      width: 100%;
+      position: absolute;
+
+      &-title {
+        font-size: 24px;
+        font-family: "Fraunces";
+        font-weight: 900;
+        line-height: 32px;
+        color: #83888f;
+      }
+
+      &-line {
+        display: none;
+        &-oval {
+          padding-top: 48px;
+          z-index: 2;
+          display: none;
+
+          &-item {
+            padding-right: 190px;
+          }
+        }
+
+        &-hr {
+          margin-left: 10px;
+          z-index: -9;
+          position: absolute;
+          top: 95px;
+          width: 467px;
+          height: 2px;
+          background-color: $main-bg-pale-orange;
+        }
+      }
+
+      &__order {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+
+        &-list {
+          width: 375px;
+          height: 355px;
+          margin-top: 82px;
+          color: $main-bg-dark-grey-blue;
+
+          &_number {
+            font-weight: 900;
+            line-height: 72px;
+            margin-left: 30px;
+            font-size: 72px;
+            color: $main-bg-pale-orange;
+            font-family: "Fraunces";
+          }
+
+          &_title {
+            width: 224px;
+            height: 32px;
+
+            margin-bottom: 24px;
+            margin-left: 10px;
+            margin-top: 38px;
+            font-weight: 900;
+            line-height: 32px;
+            font-size: 28px;
+            font-family: "Fraunces";
+          }
+
+          &_text {
+            text-align: center;
+            width: 224px;
+            height: 100px;
+            text-align: left;
+            margin-top: 42px;
+            line-height: 25px;
+            font-weight: 400;
+            font-style: 15px;
+            padding: 0px 30px 0px 0px;
+            font-family: "Barlow";
+          }
+        }
+      }
+
+      &__btn {
+        margin-top: 50px;
+
+        &-1 {
+          width: 217px;
+          height: 56px;
+          font-family: "Fraunces";
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 25px;
+          margin-top: 56px;
+          border-radius: 6px;
+          color: $main-bg-white;
+          background-color: $main-bg-cylan;
+          border: none;
+
+          &:hover {
+            background-color: #66d2cf;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

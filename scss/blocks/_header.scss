@@ -1,0 +1,17 @@
+header{
+    width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+ header{   
+    width: 70%;
+}
+}
+
+
+@media only screen and (max-width:375px) {
+    header{   
+       width: 40%;
+   }
+   }
+   
